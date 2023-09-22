@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day05-springmvc-crud-01" />
+    <file type="web" url="file://$PROJECT_DIR$/day06-schedule02" />
+    <file type="web" url="file://$PROJECT_DIR$/day07-springmvc-crud-01" />
+    <file type="web" url="file://$PROJECT_DIR$/day09-ssm-01" />
+    <file type="web" url="file://$PROJECT_DIR$/day11-schedule-crud" />
+    <file type="web" url="file://$PROJECT_DIR$/../../尚硅谷2023/spring/day06-springmvc/代码/maven-pro/day06-springmvc-crud-01" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day02-spring-crud-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day02-spring-crud-02/pom.xml" />
+        <option value="$PROJECT_DIR$/day02-spring-crud-03/pom.xml" />
+        <option value="$PROJECT_DIR$/day02-spring-crud-04/pom.xml" />
+        <option value="$PROJECT_DIR$/day02-spring-crud-05/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-spring-crud-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-spring-crud-02/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-spring-crud-03/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-spring-crud-04/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-spring-crud02/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-spring-crud-02/pom.xml" />
+        <option value="$PROJECT_DIR$/day05-springmvc-crud-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day06-schedule02/pom.xml" />
+        <option value="$PROJECT_DIR$/day07-springmvc-crud-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day09-ssm-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day10-mybatis-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day11-schedule-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/day12-springboot-crud-01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-blog-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

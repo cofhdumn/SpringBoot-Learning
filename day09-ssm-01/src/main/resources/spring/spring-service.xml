@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        https://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/aop
+         https://www.springframework.org/schema/aop/spring-aop.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--1.包扫描-->
+    <context:component-scan base-package="com.atguigu"/>
+    <!--2.引入外部的properties文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <!--创建DataSource对象-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${datasource.username}"/>
+        <property name="password" value="${datasource.password}"/>
+        <property name="url" value="${datasource.url}"/>
+        <property name="driverClassName" value="${datasource.driverClassName}"/>
+    </bean>
+    <!--6.创建JdbcTemplate对象-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--7配置SqlSessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--7.1.1 注入dataSource对象-->
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mapperLocations" value="classpath:mappers/*.xml"></property>
+        <property name="typeAliasesPackage" value="com.atguigu.pojos"></property>
+    </bean>
+
+
+    <!--7.2 配置MapperScannerConfigurer:用于扫描持久层接口，底层使用动态代理创建持久层接口代理对象-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.atguigu.mapper"></property>
+    </bean>
+
+    <!--8. 开启springmvc-->
+    <mvc:annotation-driven/>
+
+
+    <!--9. 配置跨域-->
+    <mvc:cors>
+        <mvc:mapping path="/**"
+                     allowed-origin-patterns="*"
+                     allowed-methods="*"
+                     allowed-headers="*"
+                     allow-credentials="true"
+        />
+    </mvc:cors>
+
+    <!--10.开启Aop-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!--11.开启事务-->
+    <tx:annotation-driven/>
+</beans>

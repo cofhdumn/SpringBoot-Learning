@@ -1,0 +1,228 @@
+[18:17:23.820] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:17:23 CST 2023开始执行，方法断点参数是null]
+[18:22:44.489] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:22:44 CST 2023开始执行，方法断点参数是null]
+[18:22:44.836] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [50] [com.atguigu.service.impl.UserServiceImpl类的findUserById方法从Mon Aug 28 18:22:44 CST 2023开始执行，方法的参数是3]
+[18:27:32.907] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:27:32 CST 2023开始执行，方法断点参数是null]
+[18:27:33.255] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [50] [com.atguigu.service.impl.UserServiceImpl类的findUserById方法从Mon Aug 28 18:27:33 CST 2023开始执行，方法的参数是3]
+[19:02:42.295] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:02:42.549] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:02:42.561] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:03:44.754] [DEBUG] [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper] [394] [Using ContextCustomizers for test class [SpringTest]: []]
+[19:03:44.770] [DEBUG] [main] [org.springframework.test.context.util.TestContextSpringFactoriesUtils] [42] [Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [jakarta/servlet/ServletContext]]
+[19:03:44.775] [DEBUG] [main] [org.springframework.test.context.util.TestContextSpringFactoriesUtils] [42] [Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]]
+[19:03:44.777] [DEBUG] [main] [org.springframework.test.context.util.TestContextSpringFactoriesUtils] [42] [Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]]
+[19:03:44.779] [DEBUG] [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper] [181] [Using TestExecutionListeners for test class [SpringTest]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener]]
+[19:03:44.782] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [154] [Before test class: class [SpringTest], class annotated with @DirtiesContext [false] with mode [null]]
+[19:03:44.789] [DEBUG] [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] [91] [Performing dependency injection for test class com.atguigu.SpringTest]
+[19:03:44.791] [DEBUG] [main] [org.springframework.test.context.support.AbstractGenericContextLoader] [199] [Loading ApplicationContext for test class com.atguigu.SpringTest]
+[19:03:44.839] [DEBUG] [main] [org.springframework.core.env.StandardEnvironment] [300] [Activating profiles []]
+[19:03:44.841] [DEBUG] [main] [org.springframework.test.context.support.AnnotationConfigContextLoader] [187] [Registering component classes: [com.atguigu.configuration.AtguiguSpringConfiguration111]]
+[19:03:44.887] [DEBUG] [main] [org.springframework.context.support.GenericApplicationContext] [630] [Refreshing org.springframework.context.support.GenericApplicationContext@25ce9dc4]
+[19:03:44.904] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor']
+[19:03:44.970] [DEBUG] [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] [441] [Identified candidate component class: file [D:\location\maven-pro\day03-spring-crud-02\target\classes\com\atguigu\aspect\LoggingAspect.class]]
+[19:03:44.973] [DEBUG] [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] [441] [Identified candidate component class: file [D:\location\maven-pro\day03-spring-crud-02\target\classes\com\atguigu\controller\UserController.class]]
+[19:03:44.976] [DEBUG] [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] [441] [Identified candidate component class: file [D:\location\maven-pro\day03-spring-crud-02\target\classes\com\atguigu\dao\impl\UserDaoImpl.class]]
+[19:03:44.979] [DEBUG] [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] [441] [Identified candidate component class: file [D:\location\maven-pro\day03-spring-crud-02\target\classes\com\atguigu\service\impl\UserServiceImpl.class]]
+[19:03:45.135] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor']
+[19:03:45.138] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory']
+[19:03:45.141] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor']
+[19:03:45.149] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'atguiguSpringConfiguration']
+[19:03:45.161] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver] [115] [Found key 'datasource.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String]
+[19:03:45.164] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver] [115] [Found key 'datasource.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String]
+[19:03:45.165] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver] [115] [Found key 'datasource.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String]
+[19:03:45.166] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver] [115] [Found key 'datasource.driverClassName' in PropertySource 'class path resource [jdbc.properties]' with value of type String]
+[19:03:45.166] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'loggingAspect']
+[19:03:45.169] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'userController']
+[19:03:45.175] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'userServiceImpl']
+[19:03:45.177] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'userDaoImpl']
+[19:03:45.179] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'queryRunner']
+[19:03:45.182] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [225] [Creating shared instance of singleton bean 'dataSource']
+[19:03:45.222] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [806] [Autowiring by type from bean name 'queryRunner' via factory method to bean named 'dataSource']
+[19:03:45.249] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]]
+[19:03:45.252] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]]
+[19:03:45.257] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [114] [Before test method: class [SpringTest], method [testFindAll], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]]
+[19:03:45.258] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]]
+[19:03:45.260] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]]
+[19:03:45.368] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:03:45.598] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]]
+[19:03:45.601] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]]
+[19:03:45.602] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [114] [After test method: class [SpringTest], method [testFindAll], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]]
+[19:03:45.609] [DEBUG] [main] [org.springframework.test.context.cache] [290] [Spring test ApplicationContext cache statistics: [DefaultContextCache@4d18aa28 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]]
+[19:03:45.610] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [154] [After test class: class [SpringTest], class annotated with @DirtiesContext [false] with mode [null]]
+[19:03:45.623] [DEBUG] [SpringContextShutdownHook] [org.springframework.context.support.GenericApplicationContext] [1031] [Closing org.springframework.context.support.GenericApplicationContext@25ce9dc4, started on Mon Aug 28 19:03:44 CST 2023]
+[19:03:45.624] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:03:45.633] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:04:32.295] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:04:32.538] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:04:32.548] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:34:58.433] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:34:58.684] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:34:58.694] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:43:00.339] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 19:43:00:337时候开始执行，方法参数是[3]]
+[19:43:00.469] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:43:00.691] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:43:00.702] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:44:14.049] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 19:44:14:047时候开始执行，方法参数是[]]
+[19:44:14.165] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:44:14.331] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 19:44:14:331时候开始执行，方法参数是[3]]
+[19:44:14.343] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:44:14.357] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:04:07.341] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:04:07.698] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [33] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:04:07:698时候开始执行，方法参数是[]]
+[20:04:07.907] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:04:08.151] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [48] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:04:08:151时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:04:08.153] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [33] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:04:08:153时候开始执行，方法参数是[3]]
+[20:04:08.155] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [48] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:04:08:155时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:04:08.170] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:04:08.180] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:13:20.527] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:13:20.531] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:13:20.853] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:13:20:853时候开始执行，方法参数是[]]
+[20:13:21.046] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:13:21.279] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:13:21:279时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:13:21.281] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:13:21:281时候开始执行，方法参数是[3]]
+[20:13:21.284] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:13:21:284时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:13:21.300] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:13:21.311] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:13:59.956] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:13:59.959] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:14:00.292] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:14:00:292时候开始执行，方法参数是[]]
+[20:14:00.455] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:14:00.682] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:14:00:682时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:14:00.684] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:14:00:684时候开始执行，方法参数是[3]]
+[20:14:00.687] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:14:00:687时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:14:00.704] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:14:00.713] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:14:30.140] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:14:30.145] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:14:30.481] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:14:30:480时候开始执行，方法参数是[]]
+[20:14:30.677] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:14:30.905] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:14:30:905时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:14:30.907] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:14:30:906时候开始执行，方法参数是[3]]
+[20:14:30.910] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:14:30:910时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:14:30.926] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:14:30.934] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:15:31.763] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:15:31.767] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:15:32.083] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:15:32:083时候开始执行，方法参数是[]]
+[20:15:32.272] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:15:32.516] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [45] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:15:32:516时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:15:32.541] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:15:32.552] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:16:04.272] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:16:04.276] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:16:04.625] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-0} closing ...]
+[20:16:45.970] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:16:45.976] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:16:46.320] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [30] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:16:46:320时候开始执行，方法参数是[3]]
+[20:16:46.333] [ERROR] [main] [com.atguigu.aspect.LoggingAspect] [57] [[异常通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:16:46:324时候出现了异常，异常信息是{}]
+java.lang.ArithmeticException: / by zero
+	at com.atguigu.service.impl.UserServiceImpl.findUserById(UserServiceImpl.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.findUserById(Unknown Source)
+	at com.atguigu.controller.UserController.findUserById(UserController.java:52)
+	at com.atguigu.SpringTest.testFindAll(SpringTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[20:16:46.373] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-0} closing ...]
+[20:32:21.019] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:32:21.023] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:32:21.375] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [31] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:32:21:375时候开始执行，方法参数是[3]]
+[20:32:21.589] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:32:21.813] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [46] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:32:21:813时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:32:21.819] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [70] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:32:21:819时候执行结束]
+[20:32:21.836] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:32:21.844] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:41:46.306] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:41:46.310] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:41:46.737] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:41:46:737时候开始执行，方法参数是[3]]
+[20:41:47.009] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:41:47.307] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:41:47:307时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:41:47.313] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:41:47:313时候执行结束]
+[20:41:47.314] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法的总执行时长为580毫秒]
+[20:41:47.333] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:41:47.347] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:42:15.023] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:42:15.027] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:42:15.382] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:42:15:382时候开始执行，方法参数是[]]
+[20:42:15.583] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:42:15.831] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:42:15:831时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:42:15.832] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:42:15:832时候执行结束]
+[20:42:15.833] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法的总执行时长为452毫秒]
+[20:42:15.834] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:42:15:834时候开始执行，方法参数是[3]]
+[20:42:15.837] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:42:15:837时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:42:15.838] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:42:15:838时候执行结束]
+[20:42:15.838] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法的总执行时长为4毫秒]
+[20:42:15.853] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:42:15.863] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:42:52.808] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:42:52.812] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:42:53.186] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findAll方法从2023-08-028 20:42:53:186时候开始执行，方法参数是[]]
+[20:42:53.383] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:42:53.620] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:42:53:620时候成功结束了，方法的返回值是[User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}, User{id=4, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=5, username='张三疯', address='广东省-深圳市-宝安区', age=20}, User{id=6, username='李四', address='广东省-深圳市-南山区', age=20}, User{id=7, username='王五', address='广东省-深圳市-宝安区', age=20}, User{id=8, username='张三', address='广东省-深圳市-宝安区', age=23}, User{id=9, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=10, username='张三', address='广东省-深圳市-宝安区', age=20}, User{id=31, username='aolianna', address='祖安', age=29}, User{id=38, username='aolafu', address='德玛西亚', age=3}]]
+[20:42:53.621] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法在2023-08-28 20:42:53:621时候执行结束]
+[20:42:53.622] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findAll方法的总执行时长为438毫秒]
+[20:42:53.642] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:42:53.651] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[20:49:47.521] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:49:47.525] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[20:49:47.896] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-028 20:49:47:896时候开始执行，方法参数是[3]]
+[20:49:48.096] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[20:49:48.310] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:49:48:310时候成功结束了，方法的返回值是User{id=3, username='奥拉夫', address='广东省-深圳市-宝安区', age=20}]
+[20:49:48.315] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-28 20:49:48:315时候执行结束]
+[20:49:48.315] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法的总执行时长为421毫秒]
+[20:49:48.334] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[20:49:48.344] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]

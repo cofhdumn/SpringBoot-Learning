@@ -1,0 +1,326 @@
+[16:42:30.904] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:42:30.909] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:42:31.585] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[16:42:31.836] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[16:42:31.847] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[16:46:58.203] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:46:58.208] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:46:58.969] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[16:46:59.321] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[16:46:59.336] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[16:49:27.880] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:49:27.885] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:49:28.637] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[16:49:28.952] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[16:49:28.965] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[16:50:52.301] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:50:52.307] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:50:53.164] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[16:50:53.509] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[16:50:53.524] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[16:56:02.721] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:56:02.726] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:56:03.384] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-0} closing ...]
+[16:57:13.593] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:57:13.599] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[16:57:14.143] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-0} closing ...]
+[17:58:00.653] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[17:58:00.658] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[17:58:01.245] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-0} closing ...]
+[18:10:02.016] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:10:02.021] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:10:02.782] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:10:03.056] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的findUserById方法从2023-08-029 18:10:03:056时候开始执行，方法参数是[4]]
+[18:11:58.897] [ERROR] [main] [com.atguigu.aspect.LoggingAspect] [59] [[异常通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-29 18:11:58:895时候出现了异常，异常信息是{}]
+java.lang.ArithmeticException: / by zero
+	at com.atguigu.service.impl.UserServiceImpl.findUserById(UserServiceImpl.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atguigu.aspect.LoggingAspect.printMethodInvokeTime(LoggingAspect.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.findUserById(Unknown Source)
+	at com.atguigu.SpringTest.test04(SpringTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[18:11:58.898] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法在2023-08-29 18:11:58:898时候执行结束]
+[18:11:58.899] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的findUserById方法的总执行时长为115845毫秒]
+[18:11:58.920] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:11:58.929] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:33:01.985] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:33:01.990] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:33:02.777] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:33:03.051] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的deleteUserById方法从2023-08-029 18:33:03:051时候开始执行，方法参数是[3]]
+[18:33:03.092] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [47] [[返回通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:33:03:092时候成功结束了，方法的返回值是null]
+[18:33:03.093] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:33:03:093时候执行结束]
+[18:33:03.094] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法的总执行时长为43毫秒]
+[18:33:03.118] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:33:03.132] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:33:59.138] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:33:59.143] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:33:59.916] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:34:00.188] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的deleteUserById方法从2023-08-029 18:34:00:188时候开始执行，方法参数是[3]]
+[18:34:00.193] [ERROR] [main] [com.atguigu.aspect.LoggingAspect] [59] [[异常通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:34:00:190时候出现了异常，异常信息是{}]
+java.lang.ArithmeticException: / by zero
+	at com.atguigu.service.impl.UserServiceImpl.deleteUserById(UserServiceImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atguigu.aspect.LoggingAspect.printMethodInvokeTime(LoggingAspect.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.deleteUserById(Unknown Source)
+	at com.atguigu.SpringTest.test04(SpringTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[18:34:00.195] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:34:00:194时候执行结束]
+[18:34:00.195] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法的总执行时长为8毫秒]
+[18:34:00.223] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:34:00.235] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:35:23.500] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:35:23.504] [WARN ] [main] [org.springframework.core.LocalVariableTableParameterNameDiscoverer] [123] [Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.atguigu.aspect.LoggingAspect]
+[18:35:24.228] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:35:24.540] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [32] [[前置通知]com.atguigu.service.impl.UserServiceImpl了类的deleteUserById方法从2023-08-029 18:35:24:540时候开始执行，方法参数是[3]]
+[18:35:24.574] [ERROR] [main] [com.atguigu.aspect.LoggingAspect] [59] [[异常通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:35:24:572时候出现了异常，异常信息是{}]
+java.lang.ArithmeticException: / by zero
+	at com.atguigu.service.impl.UserServiceImpl.deleteUserById(UserServiceImpl.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atguigu.aspect.LoggingAspect.printMethodInvokeTime(LoggingAspect.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:390)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.deleteUserById(Unknown Source)
+	at com.atguigu.SpringTest.test04(SpringTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[18:35:24.577] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [71] [[后置通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法在2023-08-29 18:35:24:577时候执行结束]
+[18:35:24.577] [INFO ] [main] [com.atguigu.aspect.LoggingAspect] [92] [[环绕通知]com.atguigu.service.impl.UserServiceImpl类的deleteUserById方法的总执行时长为39毫秒]
+[18:35:24.625] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:35:24.638] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:37:12.955] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:37:13.173] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:37:13.181] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:43:58.283] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:43:58.754] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:43:58.775] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:45:11.172] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:45:11.583] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:45:11.600] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:45:37.232] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:49:22.678] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:49:22.687] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[18:49:25.429] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [370] [Creating new transaction with name [com.atguigu.service.impl.UserServiceImpl.deleteUserById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[18:49:25.593] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[18:49:25.783] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [267] [Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] for JDBC transaction]
+[18:49:25.786] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [285] [Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] to manual commit]
+[18:49:25.803] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [833] [Initiating transaction rollback]
+[18:49:25.803] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [345] [Rolling back JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a]]
+[18:49:25.808] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [389] [Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] after transaction]
+[18:49:25.827] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[18:49:25.835] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]
+[19:13:38.814] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [370] [Creating new transaction with name [com.atguigu.service.impl.UserServiceImpl.deleteUserById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[19:13:38.971] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource] [990] [{dataSource-1} inited]
+[19:13:39.158] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [267] [Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] for JDBC transaction]
+[19:13:39.162] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [285] [Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] to manual commit]
+[19:13:39.183] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [740] [Initiating transaction commit]
+[19:13:39.183] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [330] [Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a]]
+[19:13:39.192] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager] [389] [Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a1d3c1a] after transaction]
+[19:13:39.213] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2043] [{dataSource-1} closing ...]
+[19:13:39.225] [INFO ] [SpringContextShutdownHook] [com.alibaba.druid.pool.DruidDataSource] [2116] [{dataSource-1} closed]

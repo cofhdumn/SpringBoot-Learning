@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+         https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--1.包扫描-->
+    <context:component-scan base-package="com.atguigu"/>
+    <!--2. mvc注解驱动-->
+    <mvc:annotation-driven/>
+    <!--3. 文件上传的文件解析器-->
+    <!--4. 配置拦截器-->
+    <!--5. 配置跨域-->
+    <mvc:cors>
+        <mvc:mapping path="/**"
+                     allowed-origin-patterns="*"
+                     allowed-methods="*"
+                     allowed-headers="*"
+                     allow-credentials="true"
+        />
+    </mvc:cors>
+</beans>

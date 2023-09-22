@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.blog.mapper.CategoryMapper">
+
+    <select id="findCategoryList" resultType="com.atguigu.blog.pojos.Category">
+        SELECT cid , cname FROM category;
+    </select>
+
+    <select id="findCategoryListByCondition">
+        SELECT cid,cname,create_time FROM category
+        <if test="cname !=null and cname !=''">
+            WHERE cname like CONCAT("%",#{cname},"%")
+        </if>
+    </select>
+
+    <insert id="addCategory">
+        INSERT INTO category(cname) VALUES(#{cname})
+    </insert>
+
+    <update id="updateCategory">
+        UPDATE category set cname = #{cname},update_time = now() WHERE cid = #{cid}
+    </update>
+
+    <delete id="deleteCategoryById">
+        DELETE  FROM  category WHERE cid = #{cid}
+    </delete>
+</mapper>

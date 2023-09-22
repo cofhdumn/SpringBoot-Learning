@@ -1,0 +1,468 @@
+[17:55:22.146] [ERROR] [main] [org.springframework.test.context.TestContextManager] [245] [Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.atguigu.MybatisTest@1e4f4a5c]]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@508dec2b testClass = com.atguigu.MybatisTest, locations = ["classpath:spring-persis.xml"], classes = [], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [], contextCustomizers = [], contextLoader = org.springframework.test.context.support.DelegatingSmartContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:141)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:82)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-persis.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:253)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:364)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:215)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:110)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:212)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 55 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [spring-persis.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333)
+	... 66 common frames omitted
+[17:56:39.411] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[17:56:39.720] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did, t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did WHERE t1.eid =?;]
+[17:56:39.751] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[17:56:39.839] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:01:41.964] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:01:42.297] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid,t1.ename,t1.salary,t1.tel,t1.address,t1.gender,t1.did, t2.did,t2.dname,t2.description FROM t_employee t1 LEFT JOIN t_department t2 ON t1.did=t2.did WHERE t1.eid=?]
+[18:01:42.335] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[18:01:42.425] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:03:02.967] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:03:03.324] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did, t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did WHERE t1.eid =?;]
+[18:03:03.361] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[18:03:03.408] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [<==      Total: 1]
+[18:05:22.339] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:05:22.666] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did, t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did WHERE t1.eid =?;]
+[18:05:22.701] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[18:05:22.794] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:08:20.105] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:08:20.426] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did, t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did WHERE t1.eid =?;]
+[18:08:20.460] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[18:08:20.509] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [<==      Total: 1]
+[18:10:51.144] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:10:51.458] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==>  Preparing: SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did, t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did WHERE t1.eid =?;]
+[18:10:51.494] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [==> Parameters: 1(Integer)]
+[18:10:51.539] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeWithDepartmentByEid] [137] [<==      Total: 1]
+[18:17:48.864] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:17:49.187] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE gender = ?]
+[18:17:49.219] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==> Parameters: 女(String)]
+[18:17:49.256] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [<==      Total: 13]
+[18:23:21.943] [WARN ] [main] [org.springframework.context.support.GenericApplicationContext] [592] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-persist.xml]: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]']
+[18:23:21.956] [ERROR] [main] [org.springframework.test.context.TestContextManager] [245] [Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.atguigu.MybatisTest@2f2bf0e2]]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@3bd7f8dc testClass = com.atguigu.MybatisTest, locations = ["classpath:spring-persist.xml"], classes = [], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [], contextCustomizers = [], contextLoader = org.springframework.test.context.support.DelegatingSmartContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:141)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:82)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-persist.xml]: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:221)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:110)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:212)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 55 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 69 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 1; 元素类型 "select" 必须后跟属性规范 ">" 或 "/>"。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:697)
+	... 72 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须后跟属性规范 ">" 或 "/>"。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1443)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1372)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 75 common frames omitted
+[18:23:46.829] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:23:47.147] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE gender = ?]
+[18:23:47.177] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==> Parameters: 女(String)]
+[18:23:47.219] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [<==      Total: 13]
+[18:24:02.724] [WARN ] [main] [org.springframework.context.support.GenericApplicationContext] [592] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-persist.xml]: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]']
+[18:24:02.739] [ERROR] [main] [org.springframework.test.context.TestContextManager] [245] [Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.atguigu.MybatisTest@2f2bf0e2]]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@3bd7f8dc testClass = com.atguigu.MybatisTest, locations = ["classpath:spring-persist.xml"], classes = [], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [], contextCustomizers = [], contextLoader = org.springframework.test.context.support.DelegatingSmartContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:142)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:141)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:82)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-persist.xml]: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:221)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:110)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:212)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:184)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:118)
+	... 55 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\location\maven-pro\day10-mybatis-01\target\classes\mappers\EmployeeMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 69 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 1; 元素类型 "select" 必须后跟属性规范 ">" 或 "/>"。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:697)
+	... 72 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须后跟属性规范 ">" 或 "/>"。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1443)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1372)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 75 common frames omitted
+[18:24:56.624] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:24:56.943] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE gender = ?]
+[18:24:56.975] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [==> Parameters: 女(String)]
+[18:24:57.014] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByGender] [137] [<==      Total: 13]
+[18:34:13.474] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:34:13.776] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee]
+[18:34:13.809] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: ]
+[18:34:13.859] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 27]
+[18:34:56.192] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:34:56.501] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE gender = ?]
+[18:34:56.534] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 女(String)]
+[18:34:56.586] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 13]
+[18:34:58.955] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:34:59.250] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE gender = ?]
+[18:34:59.281] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 女(String)]
+[18:34:59.325] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 13]
+[18:35:47.966] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:35:48.287] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary > ? AND gender = ?]
+[18:35:48.321] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double), null(String)]
+[18:35:48.353] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 0]
+[18:37:54.233] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:37:54.545] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary > ? AND gender = ?]
+[18:37:54.576] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double), null(String)]
+[18:37:54.607] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 0]
+[18:41:23.030] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:41:23.352] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary > ?]
+[18:41:23.387] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double)]
+[18:41:23.426] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 1]
+[18:45:23.336] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:45:23.595] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee salary > ? AND]
+[18:45:23.620] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double)]
+[18:45:23.662] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:47:22.071] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:47:22.378] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary > ? AND gender = ? WHERE salary > ?]
+[18:47:22.411] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double), null(String), 20000.0(Double)]
+[18:47:22.459] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:49:29.905] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[18:49:30.214] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary > ?]
+[18:49:30.246] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [==> Parameters: 20000.0(Double)]
+[18:49:30.288] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeGtSalaryAndGender] [137] [<==      Total: 1]
+[19:20:40.854] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:20:41.169] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?]
+[19:21:43.958] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:21:44.273] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?]
+[19:23:49.715] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:23:50.028] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?]
+[19:25:14.720] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:25:15.033] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?]
+[19:27:19.645] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:27:19.959] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=? tel = ?]
+[19:27:19.988] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:27:20.034] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:28:05.861] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:28:06.177] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:28:06.207] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:28:06.222] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:29:15.517] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:29:15.832] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?]
+[19:30:19.379] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:30:19.685] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=? tel = ?]
+[19:30:19.715] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:30:19.763] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:31:37.889] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:31:38.202] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:31:38.231] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:31:38.233] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:33:59.019] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:33:59.332] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:33:59.367] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:33:59.369] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:37:45.978] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:37:46.301] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:37:46.330] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:37:46.332] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:38:10.296] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:38:10.615] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:38:10.646] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591919519(String)]
+[19:38:10.648] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:38:40.546] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:38:40.870] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ?]
+[19:38:40.900] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591917819(String)]
+[19:38:40.904] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 27]
+[19:43:12.973] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:43:13.288] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ? WHERE eid=?]
+[19:43:13.320] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591917819(String), 28(Integer)]
+[19:43:13.322] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 0]
+[19:43:29.379] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:43:29.692] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==>  Preparing: UPDATE t_employee SET salary=?, tel = ? WHERE eid=?]
+[19:43:29.723] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [==> Parameters: 20000.0(Double), 1591917419(String), 27(Integer)]
+[19:43:29.733] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.updateEmployee] [137] [<==    Updates: 1]
+[19:57:47.054] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:57:47.373] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary >= ?]
+[19:57:47.403] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: 500001.0(Double)]
+[19:57:47.435] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 0]
+[19:58:03.349] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:58:03.637] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary >= ?]
+[19:58:03.668] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: 500001.0(Double)]
+[19:58:03.703] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 0]
+[19:58:25.584] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:58:25.892] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary >= ?]
+[19:58:25.921] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: 500001.0(Double)]
+[19:58:25.955] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 0]
+[19:58:54.597] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:58:54.915] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee]
+[19:58:54.949] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: ]
+[19:58:54.999] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 27]
+[19:59:14.327] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[19:59:14.643] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary >= ?]
+[19:59:14.674] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: 60001.0(Double)]
+[19:59:14.705] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 0]
+[20:01:58.225] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[20:01:58.539] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE salary <= ?]
+[20:01:58.570] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [==> Parameters: 20000.0(Double)]
+[20:01:58.615] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListBySalary] [137] [<==      Total: 26]
+[20:34:02.510] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[20:34:02.819] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEidList] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE eid IN ( ? , ? , ? , ? , ? , ? , ? )]
+[20:34:02.848] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEidList] [137] [==> Parameters: 1(Integer), 2(Integer), 3(Integer), 4(Integer), 5(Integer), 6(Integer), 7(Integer)]
+[20:34:02.888] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEidList] [137] [<==      Total: 7]
+[20:34:53.217] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[20:34:53.532] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEIdList] [137] [==>  Preparing: SELECT eid,ename,salary,tel,address,gender,did FROM t_employee WHERE eid IN ( ? , ? , ? , ? , ? , ? , ? )]
+[20:34:53.560] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEIdList] [137] [==> Parameters: 1(Integer), 2(Integer), 3(Integer), 4(Integer), 5(Integer), 6(Integer), 7(Integer)]
+[20:34:53.601] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.findEmployeeListByEIdList] [137] [<==      Total: 7]
+[20:48:56.124] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[20:48:56.431] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.insertBatche] [137] [==>  Preparing: INSERT INTO t_employee (ename,salary,gender,tel,address,did) VALUES (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?) , (?,?,?,?,?,?)]
+[20:48:56.465] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.insertBatche] [137] [==> Parameters: test0(String), 10000.0(Double), 男(String), 1888887450(String), 北京(String), 1(Integer), test1(String), 10001.0(Double), 男(String), 1888887451(String), 北京(String), 1(Integer), test2(String), 10002.0(Double), 男(String), 1888887452(String), 北京(String), 1(Integer), test3(String), 10003.0(Double), 男(String), 1888887453(String), 北京(String), 1(Integer), test4(String), 10004.0(Double), 男(String), 1888887454(String), 北京(String), 1(Integer), test5(String), 10005.0(Double), 男(String), 1888887455(String), 北京(String), 1(Integer), test6(String), 10006.0(Double), 男(String), 1888887456(String), 北京(String), 1(Integer), test7(String), 10007.0(Double), 男(String), 1888887457(String), 北京(String), 1(Integer), test8(String), 10008.0(Double), 男(String), 1888887458(String), 北京(String), 1(Integer), test9(String), 10009.0(Double), 男(String), 1888887459(String), 北京(String), 1(Integer)]
+[20:48:56.477] [DEBUG] [main] [com.atguigu.mapper.EmployeeMapper.insertBatche] [137] [<==    Updates: 10]
+[21:08:45.667] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:08:45.997] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did=1]
+[21:08:46.030] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: ]
+[21:09:46.990] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:09:47.306] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did=1]
+[21:09:47.336] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: ]
+[21:11:06.721] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:11:07.026] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE ?]
+[21:11:07.055] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: 1(Integer)]
+[21:12:02.844] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:12:03.160] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did =?]
+[21:12:03.190] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: 1(Integer)]
+[21:13:26.525] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:13:27.027] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did =?]
+[21:13:27.208] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: 1(Integer)]
+[21:13:52.857] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:13:53.174] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did =?]
+[21:13:53.205] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: 1(Integer)]
+[21:16:38.105] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [116] [Fetching JDBC Connection from DataSource]
+[21:16:38.415] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==>  Preparing: SELECT * FROM t_department t1 LEFT JOIN t_employee t2 ON t1.did = t2.did WHERE t1.did =?]
+[21:16:38.445] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [==> Parameters: 1(Integer)]
+[21:16:38.497] [DEBUG] [main] [com.atguigu.mapper.DepartmentMapper.findDepartmentWithEmployeeListById] [137] [<==      Total: 24]

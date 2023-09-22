@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mapper.EmployeeMapper">
+
+    <sql id="allColumns">
+        SELECT eid,ename,salary,tel,address,gender,did FROM t_employee
+    </sql>
+
+
+    <!--编写手动映射规则-->
+<!--    Employee 自动映射-->
+    <resultMap id="EmployeeWithDepartmentMap" type="Employee" autoMapping="true">
+        <!--
+                association标签:表示一对一关系，创建一个关联对象
+            -->
+<!--当遇到成员变量为对象类型时候，需要定义Javatype 为对象-->
+        <association property="department" javaType="Department" autoMapping="true"/>
+    </resultMap>
+
+    <select id="findEmployeeWithDepartmentByEid" resultMap="EmployeeWithDepartmentMap">
+
+        SELECT t1.eid, t1.ename, t1.salary, t1.gender, t1.tel, t1.address, t1.did, t2.did,
+        t2.dname, t2.description FROM t_employee AS t1 LEFT JOIN t_department t2 ON t1.did = t2.did
+        WHERE t1.eid =#{eid};
+
+
+    </select>
+
+
+    <select id="findEmployeeListByGender" resultType="Employee">
+        <include refid="allColumns"></include>
+        <if test="gender !=null and gender !='' ">
+            WHERE gender = #{gender}
+        </if>
+    </select>
+
+
+    <select id="findEmployeeGtSalaryAndGender" resultType="Employee">
+        <include refid="allColumns"></include>
+        <!--
+         where标签的作用: 动态添加WHERE关键字，以及动态去掉开头的AND/OR关键字
+     -->
+<!--        <where>-->
+<!--            <if test="salary !=null">-->
+<!--                salary > #{salary}-->
+<!--            </if>-->
+
+<!--            <if test="gender !=null and gender !='' ">-->
+<!--               AND gender = #{gender}-->
+<!--            </if>-->
+<!--        </where>-->
+
+        <!--
+       trim标签:
+           prefix:动态添加前缀
+           suffix:动态添加后缀
+           prefixOverrides:动态去掉前缀
+           suffixOverrides:动态去掉后缀
+   -->
+
+        <trim prefix="WHERE" prefixOverrides="AND|OR" suffixOverrides="AND|OR">
+            <choose>
+                <when test="salary !=null ">
+                    salary > #{salary} AND
+                </when>
+                <when test="gender !=null and gender !='' ">
+                    gender = #{gender}
+                </when>
+
+            </choose>
+        </trim>
+
+    </select>
+
+
+    <update id="updateEmployee" >
+        UPDATE t_employee
+        <set>
+            <if test="ename !=null and ename !='' ">
+                    ename=#{ename}
+            </if>
+            <if test="salary !=null and salary !='' "  >
+                    salary=#{salary},
+            </if>
+            <if test="gender !=null and gender !='' ">
+                gender = #{gender},
+            </if>
+            <if test="tel !=null and tel !='' ">
+                tel = #{tel},
+            </if>
+            <if test="address != null and address != ''">
+                address=#{address},
+            </if>
+            <if test="did != null and did > 0">
+                did=#{did},
+            </if>
+
+        </set>
+        WHERE eid=#{eid}
+    </update>
+    
+    <select id="findEmployeeListBySalary" resultType="Employee">
+        <include refid="allColumns"></include>
+        <where>
+            <choose>
+                <when test="salary == null or salary &lt;0"></when>
+                <when test="salary>0 and salary &lt; 50000 ">
+                salary &lt;= #{salary}
+                </when>
+                <when test="salary >=50000 ">
+                    salary >= #{salary}
+                </when>
+            </choose>
+        </where>
+    </select>
+    
+    
+    
+    <select id="findEmployeeListByEIdList" resultType="Employee">
+        <include refid="allColumns"></include>
+
+        <foreach collection="eidList" item="eid" separator="," open="WHERE eid IN (" close=")">
+            #{eid}
+        </foreach>
+    </select>
+
+
+
+
+    <insert id="insertBatche" >
+        INSERT INTO t_employee (ename,salary,gender,tel,address,did) VALUES
+        <foreach collection="employeeList" item="employee" separator=",">
+            (#{employee.ename},#{employee.salary},#{employee.gender},#{employee.tel},#{employee.address},#{employee.did})
+        </foreach>
+    </insert>
+</mapper>

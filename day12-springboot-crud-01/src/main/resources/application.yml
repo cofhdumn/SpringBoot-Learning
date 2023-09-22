@@ -1,0 +1,10 @@
+mybatis:
+  type-aliases-package: com.atguigu.pojos
+  mapper-locations: classpath:mappers/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  profiles:
+    active: dev
+
+

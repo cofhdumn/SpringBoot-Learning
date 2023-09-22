@@ -1,0 +1,5 @@
+[18:17:23.820] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:17:23 CST 2023开始执行，方法断点参数是null]
+[18:22:44.489] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:22:44 CST 2023开始执行，方法断点参数是null]
+[18:22:44.836] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [50] [com.atguigu.service.impl.UserServiceImpl类的findUserById方法从Mon Aug 28 18:22:44 CST 2023开始执行，方法的参数是3]
+[18:27:32.907] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [31] [com.atguigu.service.impl.UserServiceImpl类的findAll方法从Mon Aug 28 18:27:32 CST 2023开始执行，方法断点参数是null]
+[18:27:33.255] [INFO ] [main] [com.atguigu.service.impl.UserServiceImpl] [50] [com.atguigu.service.impl.UserServiceImpl类的findUserById方法从Mon Aug 28 18:27:33 CST 2023开始执行，方法的参数是3]

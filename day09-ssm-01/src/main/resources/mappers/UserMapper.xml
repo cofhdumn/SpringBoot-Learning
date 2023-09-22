@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mapper.UserMapper">
+
+    <select id="findAll" resultType="User">
+        SELECT * FROM t_user
+    </select>
+
+    <insert id="saveUser">
+        INSERT INTO t_user(address,age,username)VALUES(#{address},#{age},#{username})
+    </insert>
+
+    <update id="updateUser">
+        UPDATE t_user SET address=#{address},age=#{age},username=#{username} WHERE id=#{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM t_user WHERE id=#{id}
+    </delete>
+    
+    <select id="findById" resultType="User">
+        SELECT * FROM t_user WHERE id=#{id}
+    </select>
+
+    <insert id="saveUser2">
+        INSERT INTO t_user(username,age,address)VALUES(#{username} ,#{userMap.age},#{userMap.adddress})
+    </insert>
+
+    <select id="findUserById2" resultType="User">
+        SELECT * FROM ${tableName} WHERE id = #{id}
+    </select>
+</mapper>

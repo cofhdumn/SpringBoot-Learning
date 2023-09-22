@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>com.atguigu</groupId>  
+  <artifactId>day11-schedule-crud</artifactId>  
+  <version>1.0-SNAPSHOT</version>  
+  <packaging>war</packaging>
+  <properties> 
+    <maven.compiler.source>17</maven.compiler.source>  
+    <maven.compiler.target>17</maven.compiler.target>  
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+  </properties>
+
+
+  <dependencies>
+  <!--持久层-->
+  <!--1. mysql-connector-java-->
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.22</version>
+    <scope>runtime</scope>
+  </dependency>
+  <!--2. mybatis-->
+  <dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis</artifactId>
+    <version>3.5.11</version>
+  </dependency>
+  <!--3. mybatis-spring-->
+  <dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis-spring</artifactId>
+    <version>3.0.2</version>
+  </dependency>
+  <!--4. druid-->
+  <dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>druid</artifactId>
+    <version>1.2.6</version>
+  </dependency>
+  <!--5. spring-jdbc-->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>6.0.6</version>
+  </dependency>
+  <!--6. 分页插件-->
+  <dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper</artifactId>
+    <version>5.1.11</version>
+  </dependency>
+
+
+  <!--业务层-->
+  <!--1. aop-->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>6.0.6</version>
+  </dependency>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aspects</artifactId>
+    <version>6.0.6</version>
+  </dependency>
+
+
+  <!--表现层-->
+  <!--1. spring-webmvc-->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>6.0.6</version>
+  </dependency>
+  <!--2. jackson-databind-->
+  <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.13.5</version>
+  </dependency>
+  <!--3. jarkat-->
+  <dependency>
+    <groupId>jakarta.platform</groupId>
+    <artifactId>jakarta.jakartaee-web-api</artifactId>
+    <version>9.1.0</version>
+    <scope>provided</scope>
+  </dependency>
+
+
+  <!--其它-->
+  <!--1. lombok-->
+  <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+    <scope>provided</scope>
+  </dependency>
+  <!--2. logback-->
+  <dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.2.3</version>
+  </dependency>
+  <!--3. junit-->
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.3.1</version>
+  </dependency>
+  <!--3. spring-test-->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>6.0.6</version>
+  </dependency>
+</dependencies>
+
+</project>

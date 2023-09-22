@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.blog.mapper.ArticleMapper">
+
+    <select id="findArticleList" resultType = "com.atguigu.blog.pojos.Article">
+        SELECT id,title,content,create_time FROM article
+        <if test="cid != null">
+            WHERE cid = #{cid}
+        </if>
+        LIMIT 100
+    </select>
+
+    <select id="findArticleById" resultType="com.atguigu.blog.pojos.Article">
+        SELECT id,title,content,create_time FROM article WHERE id =#{id}
+    </select>
+
+    <insert id="addArticle">
+        INSERT INTO article(title,content,create_time,cid,uid)
+        VALUES(#{title},#{content},#{createTime},#{cid},#{uid})
+    </insert>
+
+    <delete id="deleteArticleById">
+        DELETE FROM article WHERE id = #{id}
+    </delete>
+</mapper>

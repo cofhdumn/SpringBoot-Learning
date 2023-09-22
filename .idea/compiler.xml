@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day04-spring-crud-04" />
+        <module name="day05-springmvc-crud-01" />
+        <module name="day02-spring-crud-01" />
+        <module name="day10-mybatis-01" />
+        <module name="springboot-blog-demo" />
+        <module name="day03-spring-crud-01" />
+        <module name="day03-spring-crud-02" />
+        <module name="springboot-redis-demo" />
+        <module name="day06-schedule02" />
+        <module name="day02-spring-crud-03" />
+        <module name="day11-schedule-crud" />
+        <module name="day02-spring-crud-02" />
+        <module name="day02-spring-crud-05" />
+        <module name="day04-spring-crud-02" />
+        <module name="day09-ssm-01" />
+        <module name="day02-spring-crud-04" />
+        <module name="day04-spring-crud-03" />
+        <module name="day07-springmvc-crud-01" />
+        <module name="day12-springboot-crud-01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day03-spring-crud-02 (1)" target="17" />
+      <module name="day04-spring-crud02" target="17" />
+      <module name="day05-spring-crud-01" target="17" />
+      <module name="day06-springmvc-crud-01" target="17" />
+      <module name="javaSeServlet" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="day12-springboot-crud-01" options="-parameters" />
+      <module name="springboot-blog-demo" options="-parameters" />
+      <module name="springboot-redis-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
