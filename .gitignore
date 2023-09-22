@@ -1,0 +1,16 @@
+# Project exclude paths
+/day02-spring-crud-01/target/
+/day02-spring-crud-02/target/
+/day02-spring-crud-03/target/
+/day02-spring-crud-04/target/
+/day02-spring-crud-05/target/
+/day03-spring-crud-01/target/
+/day04-spring-crud-02/target/
+/day04-spring-crud-03/target/
+/day04-spring-crud-04/target/
+/day05-springmvc-crud-01/target/
+/day06-schedule02/target/
+/day07-springmvc-crud-01/target/
+/day09-ssm-01/target/
+/day10-mybatis-01/target/
+/day11-schedule-crud/target/
